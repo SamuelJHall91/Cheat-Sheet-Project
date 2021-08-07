@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet" type="text/css">
+    <title>Semantic HTML Tags Cheat Sheet</title>
+</head>
+<body>
+    <header>
+    <h1>Semantic HTML Tags Cheat Sheet</h1>
+    </header>
+        <section>
+            <h1>Document Semantic HTML</h1>
+            <table>
+                <thead>
+                    <th>Tag</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> <span class="code">&lt;title&gt;</span></td>
+                        <td>Title</td>
+                        <td>Shown in the browser tab &#38; search results. Should be unique for every page on the site.</td>
+                    </tr>
+                    <tr>
+                        <td> <span class="code">&lt;footer&gt;</td>
+                        <td>Footer</td>
+                        <td>When inside &lt;body&gt; it's the website footer. When inside &lt;article&gt; it's the least important information.</td>
+                    </tr>
+                    <tr>
+                        <td> <span class="code">&lt;article&gt;</td>
+                        <td>Article</td>
+                        <td>A peice of content that's independant. Could be removed from the website and still make sense.</td>
+                    </tr>
+                    <tr>
+                        <td> <span class="code">&lt;main&gt;</td>
+                        <td>Main</td>
+                        <td>Primary content of the page</td>
+                    </tr>
+                    <tr>
+                        <td> <span class="code">&lt;section&gt;</td>
+                        <td>Section</td>
+                        <td>A group series of related content pieces</td>
+                    </tr>
+                    <tr>
+                        <td> <span class="code">&lt;header&gt;</td>
+                        <td>Header</td>
+                        <td>When insdie the &lt;body&gt; it's the website masthead. When inside &lt;article&gt; it's the most important information.</td>
+                    </tr>
+                    <tr>
+                        <td> <span class="code">&lt;nav&gt;</td>
+                        <td>Nav</td>
+                        <td>Defines a group of navigation links.</td>
+                    </tr>
+                    <tr>
+                        <td> <span class="code">&lt;aside&gt;</td>
+                        <td>Aside</td>
+                        <td>Secondary content not required to understand the main content.</td>
+                    </tr>
+                </tbody>
+            </table>
+            </section>
+
+            <section>
+                
+            <h1>Lists</h1>
+            <table>
+                <thead>
+                    <th>Tag</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> <span class="code">&lt;ul&gt;</span></td>
+                        <td>Unordered List</td>
+                        <td>An unordered list. The order of the list isn't important. Can only have &lt;li&gt; elements as direct children.</td>
+                    </tr>
+                    <tr>
+                        <td> <span class="code">&lt;ol&gt;</span></td>
+                        <td>Ordered List</td>
+                        <td>An ordered list. The order of the items is important. Could be alphabetical, numerical, best to worst, etc. Can only have &lt;li&gt; elements as direct children.</td>
+                    </tr>
+                    <tr>
+                        <td> <span class="code">&lt;li&gt;</span></td>
+                        <td>List</td>
+                        <td>A single list item. Must be inside a &lt;ul&gt;, &lt;ol&gt; or &lt;menu&gt;. Can have most other elements inside it.</td>
+                    </tr>
+                    <tr>
+                        <td> <span class="code">&lt;dl&gt;</span></td>
+                        <td>Description List</td>
+                        <td>A description list. A grouping of terms and definitions. Words &#38; definitions, titles &#38; summaries, data points, etc. Can only have &lt;dt&gt; and &lt;dd&gt; elements as direct children</td>
+                    </tr>
+                    <tr>
+                        <td> <span class="code">&lt;dt&gt;</span></td>
+                        <td>Description Title</td>
+                        <td>Description Title, the term of the item. Must come before the &lt;dd&gt;.</td>
+                    </tr>
+                    <tr>
+                        <td> <span class="code">&lt;dd&gt</span></td>
+                        <td>Description Definition</td>
+                        <td>Description definition, the data, or text of the item. Can be multiple &lt;dd&gt; tags underneath one &lt;dt&gt;<s/td>
+                    </tr>
+                </tbody>
+            </table>
+            </section>
+            <section>
+            
+            <h1>Text</h1>
+                <table>
+                    <thead>
+                        <th>Tag</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td> <span class="code">&lt;a href&#61;&#34;...&#34;&gt;</span></td>
+                            <td>Anchor Tag</td>
+                            <td>For making hyperlinks. <em>href</em> is the path to where the link should go.</td>
+                        </tr>
+                        <tr>
+                            <td> <span class="code">&lt;h1&gt;</span></td>
+                            <td>Heading 1</td>
+                            <td>The <b>most</b> important piece of content on the page. On the homepage this should be the company's name. On the inside pages this should be the page title.</td>
+                        </tr>
+                        <tr>
+                            <td> <span class="code">&lt;h2&gt;&lt;h3&gt;&lt;h4&gt;&lt;h5&gt;&lt;h6&gt;</span></td>
+                            <td>Content Headings 2 - 6</td>
+                            <td>Content headings, each a sub-heading of the one above.</td>
+                        </tr>
+                        <tr>
+                            <td> <span class="code">&lt;hgroup&gt;</span></td>
+                            <td>heading Group</td>
+                            <td>Allows you to group multiple headings together and have them semantically treated as a single heading. It's primary purpose is for subheadings.</td>
+                        </tr>
+                        <tr>
+                            <td> <span class="code">&lt;p&gt;</span></td>
+                            <td>Paragraph</td>
+                            <td>A generic paragraph of text</td>
+                        </tr>
+                        <tr>
+                            <td> <span class="code">&lt;blockquote&gt;</span></td>
+                            <td>Blockquote</td>
+                            <td>A large, stand alone quote from another source.</td>
+                        </tr>
+                        <tr>
+                            <td> <span class="code">&lt;cite&gt;</span></td>
+                            <td>Citation</td>
+                            <td>A citation from another source, often used with quotations. A person's name, a URL, a book, a movie title, etc.</td>
+                        </tr>
+                        <tr>
+                            <td> <span class="code">&lt;q&gt</span></td>
+                            <td>Quotation</td>
+                            <td>A small quotation embedded within other content.</td>
+                        </tr>
+                        <tr>
+                            <td> <span class="code">&lt;em&gt</span></td>
+                            <td>Emphasize</td>
+                            <td>AA string of emphasized, slightly more important text. Screen readers will change their voice for this text.</td>
+                        </tr>
+                        <tr>
+                            <td> <span class="code">&lt;strong&gt;</span></td>
+                            <td>Strong</td>
+                            <td>A string of highly emphasized, much more important text. Screen readers will change their voice for this text.</td>
+                        </tr>
+                        <tr>
+                            <td> <span class="code">&lt;ins datetime&#61;&#34;...&#34;&gt;</span></td>
+                            <td>Insert datetime</td>
+                            <td>Content that was inserted after the document was published. <em>datetime</em> defines when it was added.</td>
+                        </tr>
+                        <tr>
+                            <td> <span class="code">&lt;del datetime&#61;&#34;...&#34;&gt;</span></td>
+                            <td>Delete datetime</td>
+                            <td>Content that was deleted after the document was published. <em>datetime</em> defines when it was removed.</td>
+                        </tr>
+                        <tr>
+                            <td> <span class="code">&lt;abbr title&#61;&#34;...&#34;&gt;</span></td>
+                            <td>Acronym/Abbreviation</td>
+                            <td>An Acronym or abbreviation, like &#34;HTML&#34;, &#34;CSS&#34;, etc. <em>title</em> contains the expended version.</td>
+                        </tr>
+                        <tr>
+                            <td> <span class="code">&lt;dfn&gt;</span></td>
+                            <td>Definition</td>
+                            <td>A definition of a term on the page. Should only be used once of the term.</td>
+                        </tr>
+                        <tr>
+                            <td> <span class="code">&lt;mark&gt;</span></td>
+                            <td>Mark</td>
+                            <td>Used to highlight a piece of text for reference. The keywords in a search results page, the current navigation item.</td>
+                        </tr>
+                        <tr>
+                            <td> <span class="code">&lt;i&gt;</span></td>
+                            <td>I</td>
+                            <td>Defines technical term, a ship name, a book title, a thought, sarcasm, another language.</td>
+                        </tr>
+                        <tr>
+                            <td> <span class="code">&lt;b&gt;</span></td>
+                            <td>B</td>
+                            <td>Defines a keyword, like product name in a review, a lead sentnece in a paragraph.</td>
+                        </tr>
+                        <tr>
+                            <td> <span class="code">&lt;s&gt;</span></td>
+                            <td>S</td>
+                            <td>Content that's no longer relevant to the document. Consider if the &lt;del&gt; element is beter suited first.</td>
+                        </tr>
+                        <tr>
+                            <td> <span class="code">&lt;u&gt;</span></td>
+                            <td>U</td>
+                            <td>Labels the text as having a non-textual annmotation. A misspelled word, a Chinese proper name, etc.</td>
+                        </tr>
+                        <tr>
+                            <td> <span class="code">&lt;small&gt;</span></td>
+                            <td>Small</td>
+                            <td>Represents side comments and fine print.</td>
+                        </tr>
+                        <tr>
+                            <td> <span class="code">&lt;address&gt;</span></td>
+                            <td>Address</td>
+                            <td>Contact information, email, tel, postal address, etc.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+                <h1>Images &#38; Media</h1>
+                <table>
+                    <thead>
+                        <th>Tag</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td> <span class="code">&lt;img src&#61;&#34;...&#34;&gt;</span></td>
+                            <td>Image</td>
+                            <td>Embeds an image that's important to the content. <em>src</em> is a path to the image file. <em>alt</em> describes the image if it cannot be seen.</td>
+                        </tr>
+                        <tr>
+                            <td> <span class="code">&lt;figure&gt;</span></td>
+                            <td>Figure</td>
+                            <td>Embeds annotated images, illustrations, photos, code, etc. Could be moved out of place and would still make senese.</td>
+                        </tr>
+                        <tr>
+                            <td> <span class="code">&lt;figcaption&gt;</span></td>
+                            <td>Figcaption</td>
+                            <td>For adding a caption&#47;annotation to the &lt;figure&gt;. Must be inside a &lt;figure&gt; element. Cannot stand alone.</td>
+                        </tr>
+                        <tr>
+                            <td> <span class="code">&lt;img src&#61;&#34;...&#34;&gt;</span></td>
+                            <td>Image</td>
+                            <td>Embeds an image that's important to the content. <em>src</em> is a path to the image file. <em>alt</em> describes the image if it cannot be seen.</td>
+                        </tr>
+                        <tr>
+                            <td> <span class="code">&lt;picture&gt;</span></td>
+                            <td>Picture</td>
+                            <td>Respnsive image insertion. Allows developers to provide different images for different contexts.</td>
+                        </tr>
+                        <tr>
+                            <td> <span class="code">&lt;video poster&#61;&#34;...&#34; autoplay loop muted controls&gt;</span></td>
+                            <td>Video Poster</td>
+                            <td>For embedding movies into a website. <em>poster</em> is the path to an image that's displayed before the video plays. <em>autoplay</em> will hint the video to start automatically. <em>loop</em> triggers whether the video should repeat or not. <em>muted</em> can be added to not play sound by default. <em>controls</em> shows or hides the browser's player buttons.</td>
+                        </tr>
+                        <tr>
+                            <td> <span class="code">&lt;audio autoplay loop muted controls&gt;</span></td>
+                            <td>Audio</td>
+                            <td>For embedding sounds into a website. <em>autoplay</em> will hint the audio to start automatically. <em>loop</em> triggers whether the audio should repeat or not. <em>muted</em> can be added to not play sound by default. <em>controls</em> shows or hides the browser's player buttons.</td>
+                        </tr>
+                        <tr>
+                            <td> <span class="code">&lt;source&gt;</span></td>
+                            <td>Source</td>
+                            <td>Must be inside &lt;picture&gt;, &lt;video&gt; or &lt;audio&gt; to define the different versions of content. For example, in video it gives paths to the MP4 and WEBM formats.</td>
+                        </tr>
+                        <tr>
+                            <td> <span class="code">&lt;track&gt;</span></td>
+                            <td>Track</td>
+                            <td>Used to pair captions, chapters, etc. with &lt;video&gt; elements.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <footer>
+                <h5>Created by: Samuel J Hall</h5>
+            </footer>
+        </main>
+    
+</body>
+</html>

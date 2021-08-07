@@ -1,0 +1,47 @@
+body {
+    background-color: lavender;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header {
+    color: ghostwhite;
+    background-color: lightseagreen;
+    text-align: center;
+}
+
+section {
+    text-align: center;
+}
+
+table {
+    border: 3px solid darkviolet;
+    width: 650px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+thead {
+    background-color: gainsboro;
+}
+
+td {
+
+    font-size: 16px;
+    border-top: 2px solid darkviolet;
+}
+
+tr {
+    background-color: lightcyan;
+}
+.code {
+    font-family: monospace;
+    background-color: lightgoldenrodyellow;
+}
+
+footer {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+em {
+    color:red;
+    background-color: yellow;
+}
